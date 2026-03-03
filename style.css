@@ -1015,6 +1015,12 @@ body.opening .intro-content-premium {
         font-size: 2.5rem;
     }
 
+    .hero-ampersand {
+        display: block;
+        margin: 0.5rem 0;
+        line-height: 1;
+    }
+
     .intro-names-premium {
         font-size: 2.2rem;
     }
