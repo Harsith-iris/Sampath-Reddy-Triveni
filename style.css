@@ -4,12 +4,12 @@
 
 :root {
     /* Color Palette - Premium Light Theme */
-    --primary-color: #2c3e50;
+    --primary-color: #000000;
     --secondary-color: #e8dbce;
     --accent-gold: #d4af37;
     --accent-gold-light: #f5eedc;
     --accent-gold-dark: #b8902a;
-    --text-dark: #333333;
+    --text-dark: #000000;
     --text-light: #777777;
     --white: #ffffff;
     --off-white: #fcfbf9;
@@ -168,16 +168,18 @@ footer {
 .hero-tagline {
     display: block;
     font-size: 2.5rem;
-    text-shadow: 0 2px 10px rgba(255, 255, 255, 0.8);
-    color: var(--primary-color);
+    text-shadow: 0 2px 10px rgba(255, 255, 255, 0.9), 0 0 5px rgba(255, 255, 255, 0.8);
+    color: #000000 !important;
+    font-weight: 800;
     margin-bottom: 0.5rem;
 }
 
 /* Couple names */
 .hero-names {
     font-size: 3.2rem;
-    text-shadow: 2px 4px 12px rgba(255, 255, 255, 0.8);
-    color: var(--primary-color);
+    text-shadow: 2px 4px 12px rgba(255, 255, 255, 0.9), 0 0 8px rgba(255, 255, 255, 0.8);
+    color: #000000 !important;
+    font-weight: 800;
     line-height: 1.1;
     margin: 0.5rem 0 1.5rem;
     letter-spacing: 2px;
@@ -209,8 +211,9 @@ footer {
 }
 
 .hero-divider i {
-    font-size: 0.85rem;
+    font-size: 1.1rem;
     animation: heartbeat 1.5s ease-in-out infinite;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.8));
 }
 
 @keyframes heartbeat {
@@ -227,11 +230,18 @@ footer {
 
 /* Date */
 .hero-date {
-    font-size: 0.95rem;
+    font-size: 1rem;
+    font-weight: 800;
     letter-spacing: 0.1em;
-    opacity: 0.92;
+    opacity: 1;
     margin-bottom: 0;
-    color: var(--primary-color);
+    color: #000000 !important;
+    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.9);
+}
+
+.hero-date i {
+    font-size: 1.15rem;
+    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.9);
 }
 
 /* Glassmorphism countdown cards */
@@ -254,14 +264,16 @@ footer {
     display: block;
     font-size: 2.5rem;
     line-height: 1;
-    color: var(--primary-color);
+    color: #000000 !important;
+    font-weight: 800;
 }
 
 .countdown-label {
     display: block;
     font-size: 0.65rem;
+    font-weight: 700;
     letter-spacing: 0.1em;
-    color: var(--text-dark);
+    color: #000000 !important;
     margin-top: 0.3rem;
 }
 
